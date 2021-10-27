@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    border-radius: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+
+main{
+    width: 1400px;
+    margin: 0 auto;
+     display: flex;
+     box-shadow: 10px 10px 35px rgb(110, 73, 66);
+}
+header{
+    width: 1195px;
+    height:50px;
+    float: right;
+    background-color: rgb(44, 44, 44);
+}
+
+aside{
+    width: 203px;
+    height: 898px;
+    background-color: red;
+}
+.container{
+    width: 1195px;
+    height: 850px;
+    margin-top: 50px;
+    margin-left: 203px;
+    position: absolute;
+    display: flex;
+}
+
+.row{
+    height: 848px;
+    width: 400px;
+    background-color: gold;
+}
+section{
+    height: 848px;
+    width: 800px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.col{
+    height: 250px;
+    width: 400Px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col1{
+    height: 598px;
+    width: 400Px;
+    background-color: rgb(14, 14, 122);
+}
+
+a{
+    display: block;
+    padding: 40px;
+    border-bottom: 2px solid white;
+    text-align: center;
+    font-size:30px;
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+pre{
+    margin-left: 15px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+h2{
+    font-size: 35Px;
+    color: gold;
+    margin-left: 10px;
+    word-spacing: 5PX;
+}
+h3{
+    font-size: 35px;
+    
+}
+h1{
+    padding: 12px;
+    font-size: 48px;
+     color: #fff;
+}
+
+p{
+    font-size: 40px;
+    color: white;
+}
+
+.lead{
+    font-size: 20px;
+    padding: 10px;
+}
+
+li{
+    list-style: number;
+    padding: 12px;
+    font-size: 20px;
+    color: #fff; 
+}
+
+.logo{
+    margin-top: 400px;
+    font-size: 60px;
+    width: 500px;
+    margin-right: 90px;
+    padding: 10px;
+    opacity: 0.8; 
+}
+
+.scroll{
+    padding: 10px;
+    border-bottom: none;
+    text-align: center;
+    font-size:30px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(238, 210, 54);
+    position: absolute;
+    margin-top: 630px;
+    margin-right: 399px; 
+    padding-right: 46px;
+     border-radius: 5px;
+}
+.log{
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
